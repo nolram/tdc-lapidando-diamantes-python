@@ -1,0 +1,1 @@
+# tdc-lapidando-diamantes-python
