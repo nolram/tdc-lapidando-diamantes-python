@@ -1,0 +1,36 @@
+version: '3'
+services:
+    # Mongo
+    mongo:
+      image: 'mongo'
+      ports:
+        - '27017:27017'
+      volumes:
+        - 'mongo:/data/db'
+
+    # Redis
+    redis:
+        container_name: 'redis'
+        image: 'redis'
+        ports:
+            - '6379:6379'
+        volumes:
+            - 'redisdata:/data/redis'
+
+#    # Django
+#    web:
+#        build:
+#            context: .
+#            dockerfile: docker/Dockerfile
+#        hostname: scrapy_news
+#        command: ./docker/run_scrapy_news.sh
+#        volumes:
+#            - .:/code:Z
+#        ports:
+#            - "6800:6800"
+#        depends_on:
+#            - redis
+#            - mongo
+volumes:
+    mongo:
+    redisdata:

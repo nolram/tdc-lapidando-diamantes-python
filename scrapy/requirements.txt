@@ -1,0 +1,8 @@
+beautifulsoup4==4.8.1
+django==2.2.7
+scrapy==1.8.0
+nltk==3.4.5
+pymongo==3.9.0
+pybloom-live==2.3.1
+redis==3.3.11
+scrapy-redis==0.6.8
