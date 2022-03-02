@@ -1,6 +1,6 @@
 beautifulsoup4==4.8.1
 django>=2.2.9
-scrapy==1.8.0
+scrapy==1.8.2
 nltk==3.4.5
 pymongo==3.9.0
 pybloom-live==2.3.1
