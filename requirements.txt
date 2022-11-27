@@ -3,7 +3,7 @@ Scrapy==1.8.0
 beautifulsoup4==4.8.1
 requests==2.22.0
 django>=2.2.9
-nltk==3.4.5
+nltk==3.6.6
 pymongo==3.9.0
 pybloom-live==2.3.1
 redis==3.3.11
